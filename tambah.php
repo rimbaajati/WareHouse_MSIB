@@ -71,9 +71,10 @@
                 <button type="submit" class="btn btn-success">
                     <i class="fa-solid fa-pen-to-square"></i> Simpan Data
                 </button>
-                <a href="index.php" class="btn btn-danger">
+                <button type="button" class="btn btn-danger" onclick="window.location.href='index.php';">
                     <i class="fa-solid fa-delete-left"></i> Cancel
-                </a>
+                </button>
+
             </form>
         </div>
     </main>

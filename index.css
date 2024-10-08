@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background-image: url('img/gudang.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.judul {
+    background-color: #112c49;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #091828;
+    color: white;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 40px; 
+    text-align: right;
+}
+
+header .judul h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header .judul p {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.namaForm{
+    text-align: center;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-box input[type="text"] {
+    width: 900px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+table thead {
+    background-color: #112c49;
+    color: white;
+}
+
+table thead th {
+    padding: 10px;
+    text-align: center;
+}
+
+table tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+button.btn {
+    margin-bottom: 20px;
+}
+
+#addButton{
+    position: relative;
+    left: 60px;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+footer {
+    background-color: #112c49;
+    margin-top: 100px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+

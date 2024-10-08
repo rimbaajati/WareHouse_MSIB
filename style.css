@@ -43,12 +43,13 @@ header .judul p {
 }
 
 .container {
-    max-width: 960px;
-    margin: 20px auto;
+    width: 900px;
+    margin: 70px auto;
+    align-items: center;
     padding: 20px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .namaForm{
@@ -61,7 +62,7 @@ header .judul p {
 }
 
 .search-box input[type="text"] {
-    width: 900px;
+    width: 1000px;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 50px;
@@ -70,26 +71,27 @@ header .judul p {
 }
 
 table {
-    width: 400px;
     border-collapse: collapse;
     margin-bottom: 20px;
     margin: 0 auto;
-}
+    border-radius: 10px;
+} 
 
 table thead {
     background-color: #112c49;
     color: white;
-}
+} 
 
 table thead th {
+    background-color: #112c49;
     padding: 10px;
     text-align: center;
 }
 
 table tbody td {
     padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid #dee2e6;
+    text-align: left;
+    border-bottom: 1px solid hsl(210, 14%, 89%);
 }
 
 button.btn {

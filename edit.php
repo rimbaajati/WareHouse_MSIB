@@ -73,7 +73,7 @@ if ($id) {
     <main>
         <div class="container">
             <h3 class="namaForm">Edit Data</h3>
-            <form action="prosessedit.php?id=<?php echo $id; ?>" method="POST"> <!-- Arahkan ke file PHP untuk memproses -->
+            <form action="prosesedit.php?id=<?php echo $id; ?>" method="POST"> <!-- Arahkan ke file PHP untuk memproses -->
                 <div class="formGrup">
                     <label for="namaGudang">Nama Gudang :</label>
                     <input type="text" id="namaGudang" name="name" value="<?php echo htmlspecialchars($name); ?>" required> <!-- Pre-fill data -->
@@ -107,8 +107,13 @@ if ($id) {
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-success"><i class="fa-solid fa-pen-to-square"></i> Simpan Perubahan</button>
-                <a href="index.php" class="btn btn-danger"><i class="fa-solid fa-delete-left"></i> Cancel</a>
+                <button type="submit" class="btn btn-success">
+                    <i class="fa-solid fa-pen-to-square"></i> Simpan Perubahan
+                </button>
+
+                <button type="button" class="btn btn-danger" onClick="window.location.href='index.php'">
+                    <i class="fa-solid fa-delete-left"></i> Cancel
+                </button>
             </form>
         </div>
     </main>
